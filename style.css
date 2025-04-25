@@ -1427,11 +1427,13 @@ transform: scale(1.02);
     width: 90%;
     height:fit-content;
     flex-direction: column;
+    align-items: center;
     gap: 15px;
   }
   .feature-card {
     height: fit-content;
     width: 80%;
+    max-width: 320px;
     margin-top: 2px;
     border-radius: 10px;
   }
@@ -2162,10 +2164,12 @@ transform: scale(1.02);
   height: fit-content;
   max-width: 85%;
   flex-direction: column;
+  align-items: center;
   gap: 10px;
 }
 .testimonial-card {
   width: 100%;
+  max-width: 300px;
   height: fit-content;
   border-radius: 12px;
   border-width: 1px;
@@ -2594,11 +2598,13 @@ transform: scale(1.02);
     width: 100%;
     height: fit-content;
     flex-direction: column;
+    align-items: center;
     gap: 15px;
-    padding: 20px;
+    padding: 0;
   }
   .price-card {
     width: 100%;
+    max-width: 295px;
     height:fit-content;
     min-width: 260px;
     border-radius: 12px;
@@ -2880,7 +2886,7 @@ transform: scale(1.02);
 .query-heading {
   width: 507px;
   height: 194px;
-  min-width: 320px;
+  min-width: 0;
   display: flex;
   flex-direction: column;
   gap: 18px;
@@ -2912,7 +2918,7 @@ transform: scale(1.02);
 .faq-questions-container {
   width: 507px;
   height: 444px;
-  min-width: 320px;
+  min-width: 0;
   display: flex;
   flex-direction: column;
 }
@@ -2997,6 +3003,7 @@ transform: scale(1.02);
   min-width: none;
 }
 .query-question {
+  width: 100%;
   display: flex;
   align-items: center;
   gap: 10px;
