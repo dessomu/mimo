@@ -1433,7 +1433,7 @@ transform: scale(1.02);
   .feature-card {
     height: fit-content;
     width: 80%;
-    max-width: 320px;
+    max-width: 300px;
     margin-top: 2px;
     border-radius: 10px;
   }
@@ -2169,7 +2169,7 @@ transform: scale(1.02);
 }
 .testimonial-card {
   width: 100%;
-  max-width: 300px;
+  max-width: 290px;
   height: fit-content;
   border-radius: 12px;
   border-width: 1px;
